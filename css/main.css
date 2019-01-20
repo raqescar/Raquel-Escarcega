@@ -1,0 +1,11 @@
+header{
+  height:800px;
+  color:green;
+  background-image:url('../img/header.jpg');
+  background-size:cover;
+}
+
+#about{
+  height:655px;
+  background-color:blue;
+}
