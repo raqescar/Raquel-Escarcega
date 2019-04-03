@@ -1,11 +1,105 @@
+/* full width for bootstrap*/
+.row{
+  margin-left:auto !important;
+  margin-right:auto !important;
+  max-width:1200px;
+}
+
+.right-float{
+  float:right;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:'Roboto Slab', serif !important;
+}
+
+p{
+  font-family:'Roboto', sans-serif !important;
+}
+
+/* Homepage Header- Hero image*/
 header{
-  height:800px;
-  color:green;
+  height:500px;
   background-image:url('../img/header.jpg');
   background-size:cover;
 }
 
+#header-text{
+  text-align:center;
+  padding-top:20%;
+  max-width:600px;
+  margin:0 auto;
+  /*how to vertically align & make height auto*/
+}
+
+#header-text h1{
+  color:#bdbf09;
+  font-weight:bold;
+}
+
+#header-text h1, #header-text h3{
+    background-color:rgb(240,238,239,.4);
+    margin-bottom:0;
+}
+
+#header-text h3{
+      font-family:'Roboto', sans-serif !important;
+}
+
+/* Section headings */
+
+#portfolio h4, #about h4, #contact h4{
+  text-align:center;
+  padding:25px;
+}
+
+/* Project Portfolio section */
+
+#portfolio{
+  padding:20px;
+  margin:0 auto;
+}
+
+#portfolio .row{
+  margin-bottom:20px;
+}
+
+.portfolio-example-img{
+  height:250px;
+  width:100%;
+  object-fit:cover;
+  object-position:top;
+  margin:0 10px;
+  border:1px solid #8080805e;
+  /*shadow border around images*/
+}
+
+/* how to word wrap paragraphs when the screen gets smaller.*/
+
+/* About Me section */
+
 #about{
-  height:655px;
-  background-color:blue;
+  background-color:#087e8b;
+  padding:20px;
+  color:white;
+}
+
+#about-me-img{
+  object-fit:cover;
+  object-position:right;
+  height:250px;
+  width:100%;
+}
+
+/* Lets Connect section */
+
+#contact{
+  background-color:#095156;
+  text-align:center;
+  color:white;
+}
+
+#contact .fab{
+  font-size:20px;
+  padding:5px;
 }
