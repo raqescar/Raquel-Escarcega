@@ -24,7 +24,8 @@ p{
 }
 
 header{
-  height:500px;
+  height:600px;
+  color:#045046;
   background-image:url('../img/header.jpg');
   background-size:cover;
 }
@@ -70,7 +71,7 @@ header{
 }
 
 .portfolio-example-img{
-  height:250px;
+  height:100%;
   width:100%;
   object-fit:cover;
   object-position:top;
@@ -114,4 +115,5 @@ header .col-8{
 #contact .fab{
   font-size:20px;
   padding:5px;
+  color:white;
 }
