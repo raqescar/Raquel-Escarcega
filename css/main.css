@@ -24,10 +24,12 @@ p{
 }
 
 header{
-  height:600px;
+  height:auto;
+  padding:50px;
   color:#045046;
-  background-image:url('../img/header.jpg');
+  background-image:url('../img/hero-image.png');
   background-size:cover;
+  max-width:100% !important;
 }
 
 #header-text{
@@ -39,7 +41,7 @@ header{
 }
 
 #header-text h1{
-  color:#bdbf09;
+  color:#193047;
   font-weight:bold;
 }
 
@@ -64,6 +66,7 @@ header{
 #portfolio{
   padding:20px;
   margin:0 auto;
+  max-width:900px;
 }
 
 #portfolio .row{
