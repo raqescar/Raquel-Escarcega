@@ -101,14 +101,28 @@ header .col-8{
 
 /* Lets Connect section */
 
-#contact{
+#contact {
   background-color: #095156;
   text-align: center;
   color: white;
+}
+
+.contact-container {
+  margin-bottom: 30px;
 }
 
 #contact .fab{
   font-size: 20px;
   padding: 5px;
   color: white;
+}
+
+@media only screen and (min-width: 768px) {
+   /*Tablet styles here*/
+
+   #contact .content-wrapper {
+     display: flex;
+     justify-content: space-around;
+   }
+
 }
