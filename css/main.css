@@ -63,13 +63,18 @@ header{
 
 /* Project Portfolio section */
 
-#portfolio{
+.portfolio{
   padding:20px;
   margin:0 auto;
   max-width:900px;
 }
 
-#portfolio .row{
+.portfolio a{
+  color: #117a8b;
+  font-weight: bold;
+}
+
+.portfolio .row{
   margin-bottom:20px;
 }
 
