@@ -99,6 +99,14 @@ header .col-8{
   width: 100%;
 }
 
+.about span{
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.about hr{
+  border-top: 1px solid white;
+}
 /* Lets Connect section */
 
 #contact {
@@ -108,7 +116,7 @@ header .col-8{
 }
 
 .contact-container {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #contact .fab{
@@ -120,9 +128,18 @@ header .col-8{
 @media only screen and (min-width: 768px) {
    /*Tablet styles here*/
 
+   .about .content-wrapper,
    #contact .content-wrapper {
      display: flex;
      justify-content: space-around;
+   }
+
+   .about figure {
+     width: 40%;
+   }
+
+   .about-text {
+     width: 50%;
    }
 
 }
