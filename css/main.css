@@ -91,6 +91,10 @@ header .col-8{
   color: white;
 }
 
+.about .content-wrapper {
+  margin: 25px;
+}
+
 .about img{
   object-fit: cover;
   object-position: right;
