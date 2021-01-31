@@ -45,6 +45,19 @@ header{
   font-family: 'Roboto', sans-serif !important;
 }
 
+/* Resume Link */
+
+.resume {
+  position: absolute;
+  top: 0;
+  background-color: #6a8d86de;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.resume a {
+  color: white;
+}
 /* Section headings */
 
 .portfolio h4, .about h4, #contact h4{
