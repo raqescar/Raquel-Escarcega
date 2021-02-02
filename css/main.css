@@ -37,7 +37,7 @@ header{
 }
 
 .header-text h1, .header-text h3{
-  background-color: rgb(240,238,239,.4);
+  background-color: rgb(240 238 239 / 85%);
   margin-bottom: 0;
 }
 
@@ -87,6 +87,11 @@ header{
   object-fit: cover;
   object-position: top;
   border: 1px solid #8080805e;
+}
+
+.portfolio-text h5 {
+  text-align: center;
+  padding: 15px;
 }
 
 /* About Me section */
