@@ -81,7 +81,7 @@ nav a:hover {
   margin: auto;
 }
 
-.about h2, #contact h4{
+#skills h4, #contact h4{
   text-align: center;
   padding: 25px;
 }
@@ -124,6 +124,31 @@ nav a:hover {
 
 .portfolio-text span {
   font-weight: bold;
+}
+/*Skills Section*/
+
+#skills {
+  background-color:#d8e6e3;
+}
+
+#skills .content-wrapper {
+  width:85%;
+  text-align: center;
+  padding: 75px 0;
+}
+
+#skills ul {
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+#skills li {
+  margin: 10px;
+  background-color: #7c9b95;
+  padding: 10px;
+  width: 100%;
 }
 
 /* About Me section */
@@ -195,8 +220,15 @@ header .col-8{
      flex-direction: column;
      width: 45%;
    }
+   #skills ul {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+   }
 
-
+   #skills li {
+     width: 45%;
+   }
 
    .about .content-wrapper,
    #contact .content-wrapper {
@@ -221,5 +253,9 @@ header .col-8{
 
   .portfolio .content-wrapper, .about .content-wrapper{
     max-width: 1400px;
+  }
+
+  #skills li {
+    width: 30%;
   }
 }
