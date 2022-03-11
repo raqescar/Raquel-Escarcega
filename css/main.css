@@ -221,6 +221,15 @@ header .col-8{
   padding-bottom: 30px;
 }
 
+.contact-container a {
+  color: white;
+}
+
+.contact-container a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 #contact .fab{
   font-size: 20px;
   padding: 5px;
