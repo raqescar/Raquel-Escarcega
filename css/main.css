@@ -19,6 +19,7 @@ p{
 header{
   height: auto;
   color: #045046;
+  background-color: #d8e6e39c;
   background-image: url('../img/hero-image.png');
   background-size: cover;
   max-width: 100% !important;
